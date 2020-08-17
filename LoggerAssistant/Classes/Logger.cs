@@ -16,7 +16,7 @@ namespace LoggerAssistant.Classes
         {
             HttpResponseMessage response;
 
-            Log localLog = new Log {
+            Log customerLog = new Log {
                 Id = Guid.NewGuid().ToString(),
                 CustomerProject = Assembly.GetCallingAssembly().GetName().Name,
                 isError = isError,
@@ -25,8 +25,8 @@ namespace LoggerAssistant.Classes
 
             using (HttpClient client = new HttpClient())
             {
-                client.BaseAddress = new Uri("123123123");
-                response = await client.PostAsJsonAsync("api/customerLogging", localLog);
+                client.BaseAddress = new Uri("https://loggerassistant/");
+                response = await client.PostAsJsonAsync("api/logging", customerLog);
             }
 
             if(response.StatusCode == HttpStatusCode.OK)
