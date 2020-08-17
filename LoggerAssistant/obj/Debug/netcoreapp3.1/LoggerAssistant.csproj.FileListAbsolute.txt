@@ -1,0 +1,8 @@
+C:\Users\berth\source\repos\LoggerAssistant\LoggerAssistant\bin\Debug\netcoreapp3.1\LoggerAssistant.deps.json
+C:\Users\berth\source\repos\LoggerAssistant\LoggerAssistant\bin\Debug\netcoreapp3.1\LoggerAssistant.dll
+C:\Users\berth\source\repos\LoggerAssistant\LoggerAssistant\obj\Debug\netcoreapp3.1\LoggerAssistant.csprojAssemblyReference.cache
+C:\Users\berth\source\repos\LoggerAssistant\LoggerAssistant\obj\Debug\netcoreapp3.1\LoggerAssistant.AssemblyInfoInputs.cache
+C:\Users\berth\source\repos\LoggerAssistant\LoggerAssistant\obj\Debug\netcoreapp3.1\LoggerAssistant.AssemblyInfo.cs
+C:\Users\berth\source\repos\LoggerAssistant\LoggerAssistant\bin\Debug\netcoreapp3.1\LoggerAssistant.pdb
+C:\Users\berth\source\repos\LoggerAssistant\LoggerAssistant\obj\Debug\netcoreapp3.1\LoggerAssistant.dll
+C:\Users\berth\source\repos\LoggerAssistant\LoggerAssistant\obj\Debug\netcoreapp3.1\LoggerAssistant.pdb
