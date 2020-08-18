@@ -1,40 +1,32 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
+    <v-app-bar 
+      absolute
+      color="#C80046"
+      elevate-on-scroll
+      scroll-target="#scrolling-techniques-7"
     >
-      <div class="d-flex align-center">
-        <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
 
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
-      </div>
+      <v-container class="mx-auto py-0">
+        <v-row align="center">
+          <v-toolbar-title>Title</v-toolbar-title>
 
-      <v-spacer></v-spacer>
+          <v-btn
+          class="hidden-sm-and-down"
+          text
+        >
+          Hello
+        </v-btn>
 
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
+          <v-spacer></v-spacer>
+
+          <v-btn icon>
+              <v-icon>mdi-magnify</v-icon>
+          </v-btn>
+        </v-row>
+      </v-container>
+
+
     </v-app-bar>
 
     <v-main>
@@ -42,6 +34,12 @@
     </v-main>
   </v-app>
 </template>
+
+<style scoped>
+.v-app-bar{
+
+}
+</style>
 
 <script>
 import HelloWorld from './components/HelloWorld';
